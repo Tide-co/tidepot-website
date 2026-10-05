@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tidepot – the self-watering plant pot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_V_9dfSGBJc8ylEGDWPTexmlXry_39Y8gcDqqglrPfaTGYYjtyozK_DvbL7_ppP6kKzkWEvK4JrAukUIneU0HX-vcbRzNAONVFROXvEDHWoB1FnIZQSLMSaSWDG1KyrwHgBsN20pQrYzoLCkuS9d1qTHnPJcoRuIiOAreNKHg_QWJLvLLaziJxSrealvQG_RXXMcMMCZ20eAD7iC7RRnp47gzw-3hoDFOjE6ypSsad1BhTTdsVkfVROZwCSUSKQSrnizbZttUeOdjU_AuD5vJSJom0-qp9jV6a3ZFLuByFOKt0nxNgjzL9s3r3zAmgZvgCd7FJubPv3YgE2IhH32uFkTM-gHU2baodDADqVudLqhlujKD_PfM29N5-dIjDJqR-1WSQFUAEbx8lYL1sWpF8wbCzOY-ZnCDWL70xWDxQAQ5cOZxHmW0aOHdLY8Bapt04CrIW7Gqad6cRmnti23V-zPaTu8E_n0sW47LX7VS9_VLF6pEgl5PWp_fg0VpzlX089-NxCKaf0JvUqMmakVHcPsV0qhQeMYfJKFMuG9GpG2n7qYkwFiQGtQQOBaEqYsh95sOc8-rCZAfkL4YejEpFXdfXBjw4YG3IGf1ibbJxIIC1TOM5Dvj79TSIedscrxW_OcMzMWpSEMbQvSmkuV3_uI_79myFoxyjunON7VOfsxlQs6mpajQcg4H_5QjKwpcTlSq9mt48NJ6x1BDzpbXM1mpP3vF2mqzDPzIgk7ykOrwt8vVlKqYDtbNgCtU7PIVHkUCpJp9XHEhgES89i2Eq97MUX_UlaQD1Xpq1VR_kzTgkZD9_mHOzwnD25co8ArSlKCKPAiOlWRG0wfdW2kWuOgmia7q6egYXZ-dpInVbO99OjRh8vhI2YVZVEsuF8tMTlOvfngnKDoj1eczdknVfycy3EeXUi0TWbZxsLfY1y0j33vuPBYTfiZCPzJcIqRmuN2i_xW8b49wi4Zrk_89ICjpqPyy0o_t0vN_uvwIk7wGYLPkUrFoVjlJu4FXlTp_YBb66LJVrNpYWCMVDgm1rWYeY-U80R3xG-qZmVS-EqpbS9Lx8U5j1ba8fbcjReViKgEzjIbVkm0vGwlA-VHj9X9M712MzGrRdt5b_vowQSaxsPBThPO9vvVd9Cyeta5gKFToLSwGoc2n8AYuhki6zbZpXlbzRQzBRBzoQIhji3VqAqokDgmkPyHy1AHc5vyK6VbTvlXB4BnEwjSjSqBAh98jyD1H9soXf86HwnY_Z2WElQQ570jZ-TSxhFBw6LlMjiLpJC5zj1DDDoOTgAjCW4CWHqmVc53ypdIk9mAtNxuyo6aIkNuuUYan2wUQ_ir1rx3pY37_aEx6Ed6lSynfhg8rpSo80GQ-pU2J4NzdiaFxFZ7Yh-Go0T3WWOEXoBJUo13ouYxR3lDa9ryfiExCKANhN6G8ZSdYwf4Est8H-N4uQHQdL5Vt5Vlo0jX14aUZPvh0De6t78N5IlE8g4FyhDmclO43ZlAH95VDuWpK02Kgmxil31xsJ_b5v7jxPZH38iY0ycdRfrBflkSK0p1-fg9liu2O8hoMMI37JOeXljCcFOjhoQB8BufErD34HG2A6BdQzLG3c_ytSH0rxLWmNC8RXj3c7Bx-R8gCOFKFz_KyCrCbqY6LMAhQztOJPSuUilWTy2y0FXenTZPipP2g8dv2EefNN-fO-JEUsWZbSxhsjRNOaU5ghgU6jVqpf4I" nonce="b77cad2455259a869c9d3b1cd28eaee3" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYWlsLWF0dGFjaG1lbnQuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2F0dGFjaG1lbnQvdS8wLz91aT0yJmlrPWQ5ZGViMjE0YzgmYXR0aWQ9MC4xJnBlcm1tc2dpZD1tc2ctYTpyODEzODQ1ODgzOTEyMTc4NDkyMCZ0aD0xYTEwYWQ0NDE4ZDYyY2EyJnZpZXc9YXR0JmRpc3A9c2FmZSZyZWFsYXR0aWQ9Zl9tdXV3NG50cTAmencmc2FkZGJhdD1BTkdqZEo4Qi1HRWQ1eFd5S3A5Vkczc24yWjg3QTd2TlYxTjBud2J4MUx3N1FyaEdtWnZvVkptY1cxUzNrZEgzZmdVaWhFWmRuRG54YkFoS1V0WFlrT0oweVJOekVSMmYwb1NIZ1BzUno2RkVzTmV6RHF2M1VBSThONTEtRVZoY0t4YkRXT21UMjlZY0dITWJCbXU3d2tFYVBCR1E1VFlmdGY5bl9VNXdlQjVmUTBTS1plMXFEeDdjRUdmR3F2Q0lXbGtmNU1TOWplaWVvbVNUeHZyTUFEeTk5RVFOT280V0RqRmxUa3J3MjRqV1VHc0ZSUnFmcnJiakwxLW5mUnYyZTFSY19Ta0JuclA1NHl3enVPVkFyaXh1VDdFbXNkeFdJWXpONHRwOTJLUEdwakhHYk1hV0lmRGJVc2ZBa1NyZDRtdElvOGpHQ1czMXJIeFl0UVJZdURZc0FhazMxcllmckFZWHB0emF3M0xoX1VGaUxUeW82RFo2bWdXY0J2Z21kck03RVh2SjVHSDBqNVc1azJzTXNEa1JOVHVLcktXZ0hlVnVMRG9HcEoyeGppU2xST0xrMTVIWTVkR0w4eTJzVWUwQVRWS2hpY21xVFc0Wl9MQjBObklGcnRuUGVqX1dldElQX1Jja2g0WFM3ZnlNeUJHSFBoSE1BdDlXZ29WTC1kamtBd2c1XzNyNGJES2dzd1JXb2VTYWRYMTlHQWhzRGFiY0VjTm9iRzQwMXZ5aGtyR3hxdkdCMVg3X3l2UkVTTUszZndRRXNTa0hCakloVk9ReUVYQVZSazl3NWhlU3lzYlFVUE5zbHhaVHppYXFKMVJMQi1aOWtfS0RCTTJVY19LX1RZLW9BVWJmM2Z2ZHFoUTVoUjFLbkloclhPRkxrTXlBN2FVY00xMmhLZUhiMllCeFJzYkxEODdERE00TlBRclR0Z1YxbUZzMUk4dVV6bFN3OFNEOVJVMDl2WGVFRmtwcWZXcURFNFliQW1Ob29CcDZZZ3QyY1ZEb05mZkFXQm5KVUdnYkRiZzRoR2pjdHpmNFEzTlVNR2VRcFNLOWE2UlZEM19ZZm1CbEQ0X1h3WFJoWlBIQU03dk52M1ZHMFZjVTZPVDl3TFRKMG5uNy1YLTBOSDgtVElqX2lLZmVWZ3I2TnNnRnpNSW4xUkRUbGdhM09BR0RjY0N6X3dvcF9yRXZ2RF9wejROTHo0RnZlaVlXMS1mTUtHSHBjdktxQ2J1aVQ4aXFITmxGNnRIZUphX1cxMGpkWjZXQV9VYmoxTFhzX08zVXFiZG1LRW9MbU1aMXYtekd2N2FyNlJhN1lfd3duUm8xRGZHWk5NeWo1Y2Z6RkFaMi1SdVRTbXY3dGpkS2xtSDMyUUhfMmgxQnFLQlB2bHVTQjg0cEJWTlpYZW1PbUFoT0Rn"/><style>
+:root{--bg:#eef3f2;--surface:#fff;--ink:#0f3b3f;--muted:#4d6b6d;--water:#2a8ac0;--leaf:#4f8f3a;--line:#cfdcdb;--pot:#e9ecea;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1e20;--surface:#12302f;--ink:#e6f1ef;--muted:#9bb8b6;--water:#5db6ec;--leaf:#8cc872;--line:#244846}}
+:root[data-theme="dark"]{--bg:#0b1e20;--surface:#12302f;--ink:#e6f1ef;--muted:#9bb8b6;--water:#5db6ec;--leaf:#8cc872;--line:#244846}
+*,*:before,*:after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 Figtree,system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.05;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--water);outline-offset:2px}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 5vw}
+.logo{font:800 24px "Bricolage Grotesque",sans-serif;text-decoration:none}
+nav{display:flex;gap:20px;align-items:center}
+nav a{text-decoration:none;font-weight:600}
+button{font:inherit;cursor:pointer}
+.btn{background:var(--ink);color:var(--bg);border:0;border-radius:999px;padding:12px 24px;font-weight:600}
+.btn:hover{background:var(--water);color:#fff}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.cartbtn{background:none;border:2px solid var(--ink);color:var(--ink);border-radius:999px;padding:8px 16px;font-weight:600}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:5vw;align-items:center;padding:4vw 5vw 6vw;max-width:1200px;margin:auto}
+.hero h1{font-size:clamp(44px,7vw,96px);font-weight:800;letter-spacing:-.03em}
+.hero p{max-width:46ch;color:var(--muted);font-size:19px;margin:20px 0 28px}
+.hero .row{display:flex;gap:12px;flex-wrap:wrap}
+.cross{width:100%;max-width:440px;margin:auto;display:block}
+.cross .wl{animation:bob 5s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-6px)}}
+.how,.shop,.faq{max-width:1100px;margin:auto;padding:56px 5vw}
+.how h2,.shop h2,.faq h2{font-size:clamp(30px,4vw,48px);margin-bottom:28px;letter-spacing:-.02em}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.steps h3{font-size:22px;margin-bottom:6px}.steps p{margin:0;color:var(--muted)}
+.shop{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start;background:var(--surface);border-radius:28px;margin-bottom:24px}
+.shop h2{grid-column:1/-1;margin-bottom:0}
+.shop .pic{background:var(--bg);border-radius:20px;padding:24px;position:sticky;top:16px}
+fieldset{border:0;padding:0;margin:0 0 22px}
+legend{font-weight:600;margin-bottom:8px;padding:0}
+.opts{display:flex;gap:10px;flex-wrap:wrap}
+.opts label{position:relative}
+.opts input{position:absolute;opacity:0}
+.chip{display:block;border:2px solid var(--line);border-radius:14px;padding:10px 16px;cursor:pointer;min-width:96px}
+.chip small{display:block;color:var(--muted)}
+input:checked+.chip{border-color:var(--ink);background:var(--bg)}
+input:focus-visible+.chip{outline:3px solid var(--water)}
+.sw{display:flex;align-items:center;gap:8px;min-width:0;padding:8px 14px}
+.sw i{width:20px;height:20px;border-radius:50%;border:1px solid rgba(0,0,0,.25)}
+.price{font:800 40px "Bricolage Grotesque",sans-serif;margin:6px 0 18px}
+.qty{display:inline-flex;align-items:center;border:2px solid var(--line);border-radius:999px;margin-right:12px}
+.qty button{background:none;border:0;color:var(--ink);width:40px;height:40px;font-size:20px}
+.qty span{min-width:28px;text-align:center;font-weight:600}
+ul.facts{padding-left:20px;color:var(--muted);margin:22px 0 0}
+details{border-top:1px solid var(--line);padding:16px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{font-weight:600;cursor:pointer}
+details p{color:var(--muted);margin:10px 0 0;max-width:62ch}
+footer{text-align:center;color:var(--muted);padding:40px 5vw 56px}
+dialog{border:0;border-radius:24px;padding:0;background:var(--surface);color:var(--ink);width:min(480px,94vw);max-height:90vh}
+dialog::backdrop{background:rgba(5,20,22,.55)}
+.dlg{padding:28px}
+.dlg h2{font-size:30px;margin-bottom:16px}
+.line{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.line button{background:none;border:0;color:var(--water);padding:0;text-decoration:underline}
+.tot{display:flex;justify-content:space-between;font-weight:600;font-size:20px;margin:16px 0}
+.f{display:block;margin-bottom:14px;font-weight:600}
+.f input{display:block;width:100%;margin-top:4px;padding:11px 12px;border:2px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:inherit}
+.note{color:var(--muted);font-size:14px}
+.err{color:#c0392b;font-size:14px;min-height:20px}
+.x{float:right;background:none;border:0;color:var(--ink);font-size:26px}
+@media (max-width:760px){.hero,.shop,.steps{grid-template-columns:1fr}.shop .pic{position:static}nav a.hide{display:none}}
+@media (prefers-reduced-motion:reduce){.cross .wl{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#top">Tidepot</a>
+  <nav><a class="hide" href="#how">How it works</a><a class="hide" href="#faq">Questions</a>
+  <button class="cartbtn" id="openCart" aria-label="Open cart">Cart (<span id="cc">0</span>)</button></nav>
+</header>
+<main id="top">
+<section class="hero">
+  <div>
+    <h1>Water your plants once a month.</h1>
+    <p>Tidepot has a hidden water tank under the soil. The roots drink what they need, when they need it. You just refill it.</p>
+    <div class="row"><a class="btn" href="#shop" style="text-decoration:none">Order a Tidepot</a><a class="btn ghost" href="#how" style="text-decoration:none">See how it works</a></div>
+  </div>
+  <svg class="cross" viewBox="0 0 400 420" role="img" aria-label="Cross-section of a Tidepot showing the water tank below the soil">
+    <g fill="none" stroke="#4f8f3a" stroke-width="7" stroke-linecap="round"><path d="M200 150 C200 110 190 80 160 50"/><path d="M200 150 C205 105 220 75 255 55"/><path d="M200 150 C200 120 200 90 200 40"/></g>
+    <g fill="#6bb04f"><ellipse cx="155" cy="48" rx="30" ry="14" transform="rotate(-35 155 48)"/><ellipse cx="260" cy="52" rx="30" ry="14" transform="rotate(35 260 52)"/><ellipse cx="200" cy="34" rx="14" ry="30"/></g>
+    <path d="M70 160 H330 L305 390 Q303 405 288 405 H112 Q97 405 95 390 Z" class="potfill" fill="var(--pot)" stroke="var(--ink)" stroke-width="4"/>
+    <path d="M84 165 H316 L309 230 H91 Z" fill="#6b4a33" opacity=".9"/>
+    <path d="M91 230 H309 L300 265 H100 Z" fill="#8a6a4f" opacity=".5"/>
+    <rect x="186" y="200" width="28" height="130" rx="8" fill="#d8c9a3" stroke="var(--ink)" stroke-width="2"/>
+    <rect x="100" y="262" width="200" height="8" fill="var(--ink)"/>
+    <g class="wl"><path d="M103 300 H297 L292 384 Q291 392 283 392 H117 Q109 392 108 384 Z" fill="#2a8ac0" opacity=".85"/></g>
+    <text x="330" y="332" font-size="15" fill="currentColor" style="fill:var(--ink)" text-anchor="start" display="none">Water</text>
+  </svg>
+</section>
+
+<section class="how" id="how">
+  <h2>Fill it. Forget it. Check the window.</h2>
+  <div class="steps">
+    <div><h3>Fill the tank</h3><p>Pour water into the side port until the blue float rises. One fill lasts 2 to 4 weeks, depending on the plant.</p></div>
+    <div><h3>Roots drink as needed</h3><p>A cotton wick pulls water up into the soil only when the soil is dry. No overwatering, no root rot.</p></div>
+    <div><h3>Refill when the window is empty</h3><p>A small level window shows how much water is left. When it's clear, fill it again.</p></div>
+  </div>
+</section>
+
+<section class="shop" id="shop">
+  <h2>Choose your Tidepot</h2>
+  <div class="pic"><svg id="pv" viewBox="0 0 400 400" role="img" aria-label="Preview of the selected pot"><g id="pvg">
+    <path d="M60 130 H340 L314 360 Q312 376 296 376 H104 Q88 376 86 360 Z" id="pvpot" fill="#e9ecea" stroke="#0f3b3f" stroke-width="4"/>
+    <path d="M72 136 H328 L321 190 H79 Z" fill="#6b4a33"/>
+    <rect x="90" y="232" width="220" height="7" fill="#0f3b3f"/>
+    <path d="M94 262 H306 L302 352 H98 Z" fill="#2a8ac0" opacity=".8"/>
+    <g fill="#4f8f3a"><ellipse cx="170" cy="95" rx="40" ry="16" transform="rotate(-30 170 95)"/><ellipse cx="235" cy="92" rx="40" ry="16" transform="rotate(30 235 92)"/><ellipse cx="200" cy="70" rx="16" ry="38"/></g></g></svg></div>
+  <div>
+    <fieldset><legend>Size</legend><div class="opts" id="sizes"></div></fieldset>
+    <fieldset><legend>Colour</legend><div class="opts" id="colors"></div></fieldset>
+    <div class="price" id="price"></div>
+    <div class="qty"><button id="m" aria-label="Fewer">−</button><span id="q" aria-live="polite">1</span><button id="p" aria-label="More">+</button></div>
+    <button class="btn" id="add">Add to cart</button>
+    <ul class="facts"><li>Recycled, food-safe polypropylene</li><li>Drainage-safe overflow port</li><li>Free shipping on orders over $60</li><li>30-day returns</li></ul>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <h2>Questions</h2>
+  <details><summary>Which plants work best?</summary><p>Most houseplants, herbs and leafy greens do well: pothos, basil, peace lily, ferns and mint. Cacti and succulents prefer to dry out, so use the pot without filling the tank.</p></details>
+  <details><summary>How often do I refill it?</summary><p>Every 2 to 4 weeks for most plants. Thirsty plants in bright rooms use more.</p></details>
+  <details><summary>Will it leak?</summary><p>No. The tank is sealed, and an overflow port stops it from overfilling.</p></details>
+  <details><summary>Can I return it?</summary><p>Yes. Send it back within 30 days for a full refund.</p></details>
+</section>
+</main>
+<footer>Tidepot · Self-watering plant pots</footer>
+
+<dialog id="cartD" aria-labelledby="ct"><div class="dlg">
+  <button class="x" id="closeCart" aria-label="Close">×</button>
+  <h2 id="ct">Your cart</h2>
+  <div id="cartBody"></div>
+</div></dialog>
+
+<script>
+const SIZES=[{id:'S',name:'Small',d:'10 cm',p:24},{id:'M',name:'Medium',d:'15 cm',p:36},{id:'L',name:'Large',d:'20 cm',p:52}];
+const COLORS=[{id:'Glacier',h:'#e9ecea'},{id:'Moss',h:'#8fb27a'},{id:'Slate',h:'#6f8a94'},{id:'Sand',h:'#d9c7a0'}];
+let sel={size:'M',color:'Glacier',qty:1},cart=[],stage='cart';
+const $=id=>document.getElementById(id);
+const money=n=>'$'+n.toFixed(2);
+function build(){
+  $('sizes').innerHTML=SIZES.map(s=>`<label><input type="radio" name="size" value="${s.id}" ${s.id===sel.size?'checked':''}><span class="chip"><b>${s.name}</b><small>${s.d} · $${s.p}</small></span></label>`).join('');
+  $('colors').innerHTML=COLORS.map(c=>`<label><input type="radio" name="color" value="${c.id}" ${c.id===sel.color?'checked':''}><span class="chip sw"><i style="background:${c.h}"></i>${c.id}</span></label>`).join('');
+  document.querySelectorAll('input[name=size]').forEach(e=>e.onchange=()=>{sel.size=e.value;upd()});
+  document.querySelectorAll('input[name=color]').forEach(e=>e.onchange=()=>{sel.color=e.value;upd()});
+  upd();
+}
+function upd(){
+  const s=SIZES.find(x=>x.id===sel.size),c=COLORS.find(x=>x.id===sel.color);
+  $('price').textContent=money(s.p*sel.qty);
+  $('pvpot').setAttribute('fill',c.h);
+  $('pvg').style.transform=`scale(${{S:.82,M:.92,L:1}[sel.size]})`;
+  $('pvg').style.transformOrigin='200px 376px';
+  $('q').textContent=sel.qty;
+}
+$('m').onclick=()=>{sel.qty=Math.max(1,sel.qty-1);upd()};
+$('p').onclick=()=>{sel.qty=Math.min(20,sel.qty+1);upd()};
+$('add').onclick=()=>{
+  const k=sel.size+sel.color,ex=cart.find(i=>i.k===k);
+  if(ex)ex.qty+=sel.qty;else cart.push({k,size:sel.size,color:sel.color,qty:sel.qty});
+  stage='cart';render();$('cartD').showModal();
+};
+$('openCart').onclick=()=>{stage='cart';render();$('cartD').showModal()};
+$('closeCart').onclick=()=>$('cartD').close();
+const sub=()=>cart.reduce((t,i)=>t+SIZES.find(s=>s.id===i.size).p*i.qty,0);
+function render(){
+  $('cc').textContent=cart.reduce((t,i)=>t+i.qty,0);
+  const b=$('cartBody');
+  if(stage==='done'){return}
+  if(!cart.length){b.innerHTML='<p>Your cart is empty. Pick a size and colour, then choose Add to cart.</p>';return}
+  const ship=sub()>=60?0:6;
+  if(stage==='cart'){
+    b.innerHTML=cart.map(i=>{const s=SIZES.find(x=>x.id===i.size);return `<div class="line"><div><b>${s.name} Tidepot</b><br><span class="note">${i.color} · Qty ${i.qty}</span></div><div>${money(s.p*i.qty)}<br><button data-r="${i.k}">Remove</button></div></div>`}).join('')+
+    `<div class="line"><span>Shipping</span><span>${ship?money(ship):'Free'}</span></div><div class="tot"><span>Total</span><span>${money(sub()+ship)}</span></div><button class="btn" id="go" style="width:100%">Continue to checkout</button>`;
+    b.querySelectorAll('[data-r]').forEach(x=>x.onclick=()=>{cart=cart.filter(i=>i.k!==x.dataset.r);render()});
+    $('go').onclick=()=>{stage='pay';render()};
+  } else {
+    b.innerHTML=`<form id="co" novalidate>
+      <label class="f">Full name<input id="n" autocomplete="name"></label>
+      <label class="f">Email<input id="e" type="email" autocomplete="email"></label>
+      <label class="f">Delivery address<input id="a" autocomplete="street-address"></label>
+      <label class="f">Phone<input id="ph" type="tel" autocomplete="tel"></label>
+      <div class="err" id="er" role="alert"></div>
+      <div class="tot"><span>Total</span><span>${money(sub()+ship)}</span></div>
+      <button class="btn" style="width:100%" type="submit">Place order</button>
+      <p class="note">This is a demo store. No payment is taken and no order is sent.</p>
+      <button type="button" class="btn ghost" id="bk" style="width:100%">Back to cart</button></form>`;
+    $('bk').onclick=()=>{stage='cart';render()};
+    $('co').onsubmit=ev=>{
+      ev.preventDefault();
+      const n=$('n').value.trim(),e=$('e').value.trim(),a=$('a').value.trim();
+      if(!n||!a||!/^\S+@\S+\.\S+$/.test(e)){$('er').textContent='Enter your name, a valid email and a delivery address.';return}
+      const id='TP-'+Math.floor(10000+Math.random()*90000);
+      stage='done';
+      b.innerHTML=`<h3 style="font-size:26px;margin-bottom:8px">Order placed</h3><p>Thanks, ${n.split(' ')[0].replace(/[<>&]/g,'')}. Your order number is <b>${id}</b>. We'll email ${e.replace(/[<>&]/g,'')} when it ships.</p><button class="btn" id="fin" style="width:100%">Keep browsing</button>`;
+      cart=[];$('cc').textContent=0;$('fin').onclick=()=>$('cartD').close();
+    };
+  }
+}
+build();render();
+</script>
+</body>
+</html>
