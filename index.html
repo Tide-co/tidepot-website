@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tidepot – the self-watering plant pot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#top">Tidepot</a>
+  <nav><a class="hide" href="#how">How it works</a><a class="hide" href="#faq">Questions</a>
+  <button class="cartbtn" id="openCart" aria-label="Open cart">Cart (<span id="cc">0</span>)</button></nav>
+</header>
+<main id="top">
+<section class="hero">
+  <div>
+    <h1>Water your plants once a month.</h1>
+    <p>Tidepot has a hidden water tank under the soil. The roots drink what they need, when they need it. You just refill it.</p>
+    <div class="row"><a class="btn" href="#shop" style="text-decoration:none">Order a Tidepot</a><a class="btn ghost" href="#how" style="text-decoration:none">See how it works</a></div>
+  </div>
+  <svg class="cross" viewBox="0 0 400 420" role="img" aria-label="Cross-section of a Tidepot showing the water tank below the soil">
+    <g fill="none" stroke="#4f8f3a" stroke-width="7" stroke-linecap="round"><path d="M200 150 C200 110 190 80 160 50"/><path d="M200 150 C205 105 220 75 255 55"/><path d="M200 150 C200 120 200 90 200 40"/></g>
+    <g fill="#6bb04f"><ellipse cx="155" cy="48" rx="30" ry="14" transform="rotate(-35 155 48)"/><ellipse cx="260" cy="52" rx="30" ry="14" transform="rotate(35 260 52)"/><ellipse cx="200" cy="34" rx="14" ry="30"/></g>
+    <path d="M70 160 H330 L305 390 Q303 405 288 405 H112 Q97 405 95 390 Z" class="potfill" fill="var(--pot)" stroke="var(--ink)" stroke-width="4"/>
+    <path d="M84 165 H316 L309 230 H91 Z" fill="#6b4a33" opacity=".9"/>
+    <path d="M91 230 H309 L300 265 H100 Z" fill="#8a6a4f" opacity=".5"/>
+    <rect x="186" y="200" width="28" height="130" rx="8" fill="#d8c9a3" stroke="var(--ink)" stroke-width="2"/>
+    <rect x="100" y="262" width="200" height="8" fill="var(--ink)"/>
+    <g class="wl"><path d="M103 300 H297 L292 384 Q291 392 283 392 H117 Q109 392 108 384 Z" fill="#2a8ac0" opacity=".85"/></g>
+    <text x="330" y="332" font-size="15" fill="currentColor" style="fill:var(--ink)" text-anchor="start" display="none">Water</text>
+  </svg>
+</section>
+
+<section class="how" id="how">
+  <h2>Fill it. Forget it. Check the window.</h2>
+  <div class="steps">
+    <div><h3>Fill the tank</h3><p>Pour water into the side port until the blue float rises. One fill lasts 2 to 4 weeks, depending on the plant.</p></div>
+    <div><h3>Roots drink as needed</h3><p>A cotton wick pulls water up into the soil only when the soil is dry. No overwatering, no root rot.</p></div>
+    <div><h3>Refill when the window is empty</h3><p>A small level window shows how much water is left. When it's clear, fill it again.</p></div>
+  </div>
+</section>
+
+<section class="shop" id="shop">
+  <h2>Choose your Tidepot</h2>
+  <div class="pic"><svg id="pv" viewBox="0 0 400 400" role="img" aria-label="Preview of the selected pot"><g id="pvg">
+    <path d="M60 130 H340 L314 360 Q312 376 296 376 H104 Q88 376 86 360 Z" id="pvpot" fill="#e9ecea" stroke="#0f3b3f" stroke-width="4"/>
+    <path d="M72 136 H328 L321 190 H79 Z" fill="#6b4a33"/>
+    <rect x="90" y="232" width="220" height="7" fill="#0f3b3f"/>
+    <path d="M94 262 H306 L302 352 H98 Z" fill="#2a8ac0" opacity=".8"/>
+    <g fill="#4f8f3a"><ellipse cx="170" cy="95" rx="40" ry="16" transform="rotate(-30 170 95)"/><ellipse cx="235" cy="92" rx="40" ry="16" transform="rotate(30 235 92)"/><ellipse cx="200" cy="70" rx="16" ry="38"/></g></g></svg></div>
+  <div>
+    <fieldset><legend>Size</legend><div class="opts" id="sizes"></div></fieldset>
+    <fieldset><legend>Colour</legend><div class="opts" id="colors"></div></fieldset>
+    <div class="price" id="price"></div>
+    <div class="qty"><button id="m" aria-label="Fewer">−</button><span id="q" aria-live="polite">1</span><button id="p" aria-label="More">+</button></div>
+    <button class="btn" id="add">Add to cart</button>
+    <ul class="facts"><li>Recycled, food-safe polypropylene</li><li>Drainage-safe overflow port</li><li>Free shipping on orders over $60</li><li>30-day returns</li></ul>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <h2>Questions</h2>
+  <details><summary>Which plants work best?</summary><p>Most houseplants, herbs and leafy greens do well: pothos, basil, peace lily, ferns and mint. Cacti and succulents prefer to dry out, so use the pot without filling the tank.</p></details>
+  <details><summary>How often do I refill it?</summary><p>Every 2 to 4 weeks for most plants. Thirsty plants in bright rooms use more.</p></details>
+  <details><summary>Will it leak?</summary><p>No. The tank is sealed, and an overflow port stops it from overfilling.</p></details>
+  <details><summary>Can I return it?</summary><p>Yes. Send it back within 30 days for a full refund.</p></details>
+</section>
+</main>
+<footer>Tidepot · Self-watering plant pots</footer>
+
+<dialog id="cartD" aria-labelledby="ct"><div class="dlg">
+  <button class="x" id="closeCart" aria-label="Close">×</button>
+  <h2 id="ct">Your cart</h2>
+  <div id="cartBody"></div>
+</div></dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
